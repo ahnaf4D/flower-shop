@@ -1,3 +1,285 @@
 * {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E554731A;
+
+}
+
+.header-content {
+    width: 600px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.shop-now {
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    padding: 23px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 45px;
+
+}
+
+.header-img {
+    max-width: 500px;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#featured_area {
+    margin-top: 150px;
+}
+
+.feature_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.feature-a {
+    background-color: #F2DEE7;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+.feature-b {
+    background-color: #D9EFF1;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+.feature-c {
+    background-color: #E3EBDB;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.feature-text {
+    padding-top: 25px;
+}
+
+.feature-img {
+    height: 550px;
+    width: 400px;
+    padding: 20px;
+}
+
+.service-area {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+.service_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 190px;
+    background-color: #F4F4F4;
+    padding: 100px;
+
+}
+
+.service-img {
+    padding-left: 100px;
+}
+
+.service-text {
+    align-items: center;
+}
+
+#presentation-area {
+    margin-top: 120px;
+    background-color: #FEF6F8;
+}
+
+.presentation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.presentation-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer_text {
+    color: #E55473;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.sign-up-btn {
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.feedback_container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#instagram_feedback>h2 {
+    margin-top: 128px;
+}
+
+#instagram_feedback>p {
+    margin-top: 24px;
+}
+
+#subscription_area {
+    max-width: 1400px;
+    margin: 0px auto;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+
+}
+
+#subscription_area>h2 {
+    padding-top: 122px;
+}
+
+#subscription_area>p {
+    padding-top: 16px;
+}
+
+#userEmail {
+    margin-left: 389px;
+    margin-top: 12px;
+}
+
+input {
+    margin-bottom: 100px;
+}
+
+input[type="email"] {
+    width: 600px;
+    height: 64px;
+    border: none;
+}
+
+input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+input[type="submit"] {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 64px;
+
+}
+
+footer {
+    margin-top: 120px;
+    width: 100%;
+    background: #111010;
+    height: 400px;
+}
+
+.logo_text {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.imp-part {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+footer{
+    text-align: center;
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer>small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
